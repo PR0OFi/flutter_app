@@ -1,6 +1,6 @@
 # flutter_app
 
-A new Flutter application.
+Flutter application that changing color on click.
 
 ## Getting Started
 
