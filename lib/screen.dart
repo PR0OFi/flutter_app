@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/text_element.dart';
 
 class Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: RichText(
-          text: TextSpan(
-            text: "Hello There!",
-            style: TextStyle(
-                fontSize: 40.0,
-                fontStyle: FontStyle.italic,
-                color: Colors.deepPurple),
-          ),
-        ),
-        backgroundColor: Colors.amber,
-
+        body: Container(
+            color: Colors.yellow,
+            alignment: Alignment.center,
+            child: HelloThere()),
       ),
     );
   }
